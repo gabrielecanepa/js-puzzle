@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   entry: path.resolve(__dirname, './lib/puzzle.js'),
   output: {
-    filename: 'build/application.js'
+    filename: 'build/application.js',
   },
-  devtool: 'sourcemap'
+  devtool: 'sourcemap',
 };
